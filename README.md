@@ -1,3 +1,6 @@
+# autmation.sh
+script for basic subdomain enumeration and check potential reflected parameter
+
 # Features
 * Subdomain enumeration
 * Import all internet archive url
