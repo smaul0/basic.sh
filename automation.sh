@@ -26,7 +26,7 @@ amass enum -d $1 -o amass.txt
 assetfinder --subs-only $1 >>assetfinder.txt
 findomain -t $1 -u findomain.txt 
 crobat -s $1 >> crobat.txt
-cat subfinder.txt sublist3r.txt amass.txt assetfinder.txt findomain.txt crobat.tx>
+cat subfinder.txt sublist3r.txt amass.txt assetfinder.txt findomain.txt crobat.txt >> sub.txt
 cat sub.txt | sort -u | tee unique_sub.txt
 rm sub.txt
 
