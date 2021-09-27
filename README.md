@@ -1,7 +1,7 @@
 # Features
 * Subdomain enumeration
 * Import all internet archive url
-* Check for reflected special character for xss
+* Check for reflected character for xss
 
 # Requirements
 * [subfinder](https://github.com/projectdiscovery/subfinder)
